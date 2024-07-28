@@ -1,0 +1,6 @@
+10:20:06 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.opentelemetry.enabled" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+10:20:12 INFO  [io.quarkus] (Quarkus Main Thread) quarkus_assignment 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.11.2) started in 15.296s. Listening on: http://localhost:8080
+10:20:12 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+10:20:12 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jaeger, jdbc-postgresql, narayana-jta, opentelemetry, resteasy, resteasy-jackson, smallrye-context-propagation, smallrye-openapi, smallrye-opentracing, spring-data-jpa, spring-di, swagger-ui, vertx]
+10:23:58 WARNING [or.ae.re.te.im.AbstractWindowsTerminal] (Shutdown thread) Failed to write out.
+10:23:58 INFO  [io.quarkus] (Shutdown thread) quarkus_assignment stopped in 0.384s

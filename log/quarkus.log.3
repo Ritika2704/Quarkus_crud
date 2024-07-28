@@ -1,0 +1,23 @@
+09:35:45 WARN  [io.qu.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.opentelemetry.enabled" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+09:35:53 INFO  [io.quarkus] (Quarkus Main Thread) quarkus_assignment 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.11.2) started in 16.325s. Listening on: http://localhost:8080
+09:35:53 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+09:35:53 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jaeger, jdbc-postgresql, narayana-jta, opentelemetry, resteasy, resteasy-jackson, smallrye-context-propagation, smallrye-openapi, smallrye-opentracing, spring-data-jpa, spring-di, swagger-ui, vertx]
+09:37:40 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [25/Jun/2024:09:37:40 +0530] "GET /q/swagger-ui/swagger-ui.css HTTP/1.1" 200 152042
+09:37:40 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [25/Jun/2024:09:37:40 +0530] "GET /q/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200 1402103
+09:37:40 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [25/Jun/2024:09:37:40 +0530] "GET /q/swagger-ui/style.css HTTP/1.1" 200 2094
+09:37:40 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [25/Jun/2024:09:37:40 +0530] "GET /q/swagger-ui/theme-feeling-blue.css HTTP/1.1" 200 33496
+09:37:40 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [25/Jun/2024:09:37:40 +0530] "GET /q/swagger-ui/swagger-ui-standalone-preset.js HTTP/1.1" 200 230809
+09:37:41 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [25/Jun/2024:09:37:41 +0530] "GET /q/swagger-ui/logo.png HTTP/1.1" 200 44746
+09:37:42 INFO  [io.qu.ht.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [25/Jun/2024:09:37:42 +0530] "GET /q/openapi HTTP/1.1" 200 6547
+09:37:53 INFO  [co.ja.PersonResource] (executor-thread-1) GET request received for all persons
+09:37:53 INFO  [co.ja.Se.PersonService] (executor-thread-1) Fetching all persons
+09:37:55 INFO  [io.qu.ht.access-log] (executor-thread-1) 127.0.0.1 - - [25/Jun/2024:09:37:55 +0530] "GET /persons HTTP/1.1" 200 1157
+09:38:48 INFO  [co.ja.PersonResource] (executor-thread-1) POST request received to create person
+09:38:48 ERROR [co.ja.Se.PersonService] (executor-thread-1) Username is already taken
+09:38:48 INFO  [io.qu.ht.access-log] (executor-thread-1) 127.0.0.1 - - [25/Jun/2024:09:38:48 +0530] "POST /persons HTTP/1.1" 409 25
+09:49:18 INFO  [co.ja.PersonResource] (executor-thread-1) GET request received for person with ID
+09:49:18 INFO  [co.ja.Se.PersonService] (executor-thread-1) Fetching person with ID2
+09:49:18 INFO  [io.qu.ht.access-log] (executor-thread-1) 127.0.0.1 - - [25/Jun/2024:09:49:18 +0530] "GET /persons/2 HTTP/1.1" 200 114
+09:49:19 INFO  [io.qu.ht.access-log] (executor-thread-1) 127.0.0.1 - - [25/Jun/2024:09:49:19 +0530] "GET /favicon.ico HTTP/1.1" 500 21
+09:56:13 WARNING [or.ae.re.te.im.AbstractWindowsTerminal] (Shutdown thread) Failed to write out.
+09:56:13 INFO  [io.quarkus] (Shutdown thread) quarkus_assignment stopped in 0.230s
